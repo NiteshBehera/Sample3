@@ -8,7 +8,7 @@ pipeline{
         }
         stage ('read'){
             steps {
-                sh "cat README.md"
+                bat "type README.md"
             }
         }
     }
